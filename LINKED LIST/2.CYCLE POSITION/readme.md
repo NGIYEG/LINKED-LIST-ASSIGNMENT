@@ -1,0 +1,8 @@
+Algorithm :
+This code employs Floyd's Cycle-Finding Algorithm, also known as the "tortoise and hare" algorithm, to ascertain if a linked list contains a cycle and to identify the starting position of the cycle when it exists. The algorithm begins by initializing two pointers, slow(s) and fast(f), both of which start at the head of the linked list. Subsequently, the slow(s) pointer advances one node at a time while the fast(f) pointer moves two nodes at a time. If a cycle is present in the linked list, the slow(s) and fast(f) pointers will eventually meet at some node within the cycle. To pinpoint the starting position of the cycle, the slow(s) pointer is reset to the head of the linked list, and both pointers are advanced one node at a time until they converge again. The number of steps taken by the pointers before meeting once more indicates the starting position of the cycle.
+
+Time Complexity:
+The time complexity of this algorithm is O(n), where n represents the number of nodes in the linked list. The algorithm's linear time complexity arises from the need to traverse the linked list to identify the presence of a cycle and to determine its starting position.
+
+Space Complexity:
+The space complexity of this algorithm is O(1), denoting constant space usage. This efficiency is achieved as the algorithm only utilizes two pointers, s and f, requiring a constant amount of extra space, irrespective of the linked list's size.
