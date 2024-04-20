@@ -1,0 +1,1 @@
+This C program prompts the user to input the size and elements of an array, calculates the sum and maximum value using separate functions, and then prints the results. It also includes error handling for non-negative array sizes.

@@ -1,0 +1,27 @@
+<mxfile host="65bd71144e">
+    <diagram id="51HuDRoJRMnGLX2dMutG" name="Page-1">
+        <mxGraphModel dx="818" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#1A1B2E" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="List" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=none;strokeColor=none;labelBackgroundColor=#1A1B2E;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="80" width="290" height="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="- size: int&#10;&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBorderColor=none;fontColor=default;labelBackgroundColor=#1A1B2E;" parent="2" vertex="1">
+                    <mxGeometry y="26" width="290" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="+list():&#10;+isEmpty(): bool&#10;+getsize():&#10;+insert(index: int,element: T): void&#10;+remove(index:int):void&#10;+get(index: int): T&#10;+length(): int &#10;+append(element: T):void&#10;+prepend(element: T): void&#10;+remove(index: int): void&#10;+clear(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;labelBackgroundColor=#1A1B2E;whiteSpace=wrap;" parent="2" vertex="1">
+                    <mxGeometry y="48" width="290" height="242" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="Py_SVh7oMOJYCY8FtvC4" name="Page-2">
+        <mxGraphModel dx="362" dy="335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
